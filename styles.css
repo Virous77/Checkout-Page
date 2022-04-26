@@ -1,0 +1,317 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  max-width: 900px;
+  margin: 0% auto;
+  background-color: white;
+  padding: 40px;
+}
+
+h2 {
+  font-size: 1, 6rem;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 1.5rem;
+}
+
+h5 {
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+span {
+  font-size: 0.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+.ship {
+  margin-top: 1.3rem;
+}
+
+.input-data {
+  border-radius: 7px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.input-data2 {
+  border-radius: 7px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.input-data2::placeholder {
+  color: black;
+}
+
+.input-data2 {
+  border-radius: 10px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+input::placeholder {
+  font-size: 0.8rem;
+  padding-left: 30px;
+}
+
+.block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 13px;
+  margin-top: 4px;
+}
+
+.information {
+  margin-top: 12px;
+  display: flex;
+  align-items: baseline;
+}
+.information input {
+  margin-right: 6px;
+  margin-left: 5px;
+}
+
+.information p {
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+button {
+  padding: 10px 40px;
+  border: none;
+  background-color: orange;
+  color: white;
+  border-radius: 20px;
+}
+
+button:hover {
+  background-color: #aaa;
+  color: orange;
+}
+
+.first {
+  display: flex;
+}
+
+.first img {
+  width: 30%;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+h4 {
+  font-size: 1rem;
+  margin-bottom: 0;
+  opacity: 0.85;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.orange {
+  color: orange;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.textof {
+  text-decoration: line-through;
+  font-weight: 500;
+}
+
+.img {
+  margin-bottom: 2rem;
+}
+
+.data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.h6 {
+  font-size: 0.9rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.widthh {
+  max-width: 280px;
+  background-color: lightgrey;
+  border-radius: 4px;
+  height: 50vh;
+  padding-top: 2.8rem;
+  padding-left: 1rem;
+}
+
+.price-info {
+  margin-top: 4rem;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-top: 7px;
+}
+
+@media (max-width: 995px) {
+  .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .row {
+    display: flex;
+    flex-direction: column-reverse;
+    width: auto;
+  }
+
+  .block {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    column-gap: 13px;
+    margin-top: 4px;
+  }
+
+  button {
+    margin-left: 58%;
+  }
+
+  .widthh {
+    max-width: 95%;
+    margin-bottom: 2rem;
+    height: auto;
+    padding-bottom: 0.6rem;
+  }
+}
+
+.inputWithIcon input [type-text] {
+  padding-left: 40px;
+}
+
+.inputWithIcon {
+  position: relative;
+}
+
+.inputWithIcon i {
+  position: absolute;
+  left: 0;
+  top: 53px;
+  padding: 5px 8px;
+  color: #aaa;
+}
+
+.icon input [type-text] {
+  padding-left: 40px;
+}
+
+.icon {
+  position: relative;
+}
+
+.icon p {
+  position: absolute;
+  left: 0;
+  top: 50px;
+  padding: 5px 8px;
+  color: #aaa;
+}
+
+.inputWithIcon2 input [type-text] {
+  padding-left: 40px;
+}
+
+.inputWithIcon2 {
+  position: relative;
+}
+
+.inputWithIcon2 i {
+  position: absolute;
+  left: 0;
+  top: 98px;
+  padding: 5px 8px;
+  color: #aaa;
+}
+
+.icon input [type-text] {
+  padding-left: 40px;
+}
+
+.icon {
+  position: relative;
+}
+
+.icon p {
+  position: absolute;
+  left: 0;
+  top: 50px;
+  padding: 5px 8px;
+  color: #aaa;
+}
+
+.icon2 input [type-text] {
+  padding-left: 40px;
+}
+
+.icon2 {
+  position: relative;
+}
+
+.icon2 .iconhome {
+  position: absolute;
+  left: 0;
+  top: 73px;
+  padding: 5px 8px;
+  color: #aaa;
+}
+
+.icon3 input [type-text] {
+  padding-left: 40px;
+}
+
+.icon3 {
+  position: relative;
+}
+
+.icon3 .iconhome3 {
+  position: absolute;
+  left: 0;
+  top: 123px;
+  padding: 5px 8px;
+  color: #aaa;
+}
+
+.blockicon input [type-text] {
+  padding-left: 40px;
+}
+
+.blockicon {
+  position: relative;
+}
+
+.blockicon .gold {
+  position: absolute;
+  left: 0;
+  top: 21px;
+  padding: 5px 8px;
+  color: #aaa;
+}
+
+.blockicon2 input [type-text] {
+  padding-left: 40px;
+}
+
+.blockicon2 {
+  position: relative;
+}
+
+.blockicon2 .goldok {
+  position: absolute;
+  left: 205px;
+  top: 21px;
+  padding: 5px 8px;
+  color: #aaa;
+}
